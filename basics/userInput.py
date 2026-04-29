@@ -1,2 +1,5 @@
 name=input("Enter your nane:")
 print("Hello "+name)
+age=int(input("Enter your age: "))
+print("You are "+str(age)+" years old.")
+print(type(age))
