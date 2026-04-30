@@ -1,0 +1,16 @@
+import random
+
+# Random integer between 1 and 100
+# Random float between 0 and 1
+print(random)
+random=random.randint(1,100)
+while(True):
+    random_input_num=int(input("Guess a number between 1 and 100: "))
+    if random_input_num==random:
+        print("Congratulations! You guessed the correct number.")
+        break
+    elif random_input_num<random:
+        print("Too low! Try again.")
+    else:
+        print("Too high! Try again.")
+
